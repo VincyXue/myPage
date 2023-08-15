@@ -1,0 +1,36 @@
+section {
+    display: flex;
+    gap: 20px;
+    margin-top: 70px;
+}
+
+.meIntro {
+    color: rgb(232, 178, 152);
+    font-family: 'Ruwudu', serif;
+    text-align: center;
+}
+
+.meIntro a {
+    color: rgb(116, 155, 194);
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.meIntro a:hover {
+    color: rgb(189, 205, 214);
+}
+
+.meIntro h1 {
+    font-size: xx-large;
+}
+
+section img {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 700px) {
+    section {
+        display: block;
+        text-align: center;
+    }
+}

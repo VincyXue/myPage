@@ -1,0 +1,36 @@
+.allProjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+
+.allProjects .project,
+hr {
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(116, 155, 194);
+}
+
+.allProjects img,
+.allProjects p {
+    width: 400px;
+    padding: 20px;
+}
+
+.allProjects h3,
+.allProjects p {
+    color: rgb(232, 178, 152);
+}
+
+.allProjects a {
+    color: rgb(116, 155, 194);
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.allProjects a:hover {
+    color: rgb(189, 205, 214);
+}

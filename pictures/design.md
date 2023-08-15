@@ -20,3 +20,7 @@ contact}
 pic of project that i have done
 title of my project
 hyperlink to my project
+
+reference:
+color hunt:
+main theme - https://colorhunt.co/palette/f6f4eb91c8e4749bc24682a9;

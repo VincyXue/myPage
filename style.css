@@ -1,20 +1,67 @@
 body {
-    background-color: rgb(238, 233, 218);
+    background-color: rgb(246, 244, 235);
 }
 
-nav ul {
+nav ul,
+footer ul {
     display: flex;
     flex-basis: 200px;
     justify-content: space-around;
     list-style: none;
 }
 
-nav a {
-    color: rgb(96, 150, 180);
+nav a,
+footer a {
+    color: rgb(116, 155, 194);
     text-decoration: none;
     font-weight: 900;
 }
 
-nav a:hover {
+nav a:hover,
+footer a:hover {
     color: rgb(189, 205, 214);
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(116, 155, 194);
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+
+    .menu-icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-icon ul,
+    .menu-icon a {
+        list-style: none;
+        color: rgb(116, 155, 194);
+        text-decoration: none;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .menu-icon li {
+        margin-bottom: 10px;
+    }
+
+    .menu-icon img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
 }
