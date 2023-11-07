@@ -6,23 +6,23 @@
     margin-top: 70px;
 }
 
-.allProjects .project,
-hr {
-    border: 1px solid;
+.allProjects .project{
+    border: 2px solid;
     border-radius: 10px;
-    text-align: center;
     color: rgb(116, 155, 194);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .allProjects img,
 .allProjects p {
     width: 400px;
-    padding: 20px;
-}
-
-.allProjects h3,
-.allProjects p {
-    color: rgb(232, 178, 152);
+    text-align: justify;
+    color: rgb(233, 145, 29);
+    text-indent: 2em;
 }
 
 .allProjects a {
